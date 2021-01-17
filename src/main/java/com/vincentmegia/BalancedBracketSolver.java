@@ -9,9 +9,6 @@ public class BalancedBracketSolver {
                     .replace("[]", "")
                     .replace("{}", "");
         }
-        if (s.length() == 0)
-            return "YES";
-        else
-            return "NO";
+        return (s.length() == 0) ? "YES" : "NO";
     }
 }
